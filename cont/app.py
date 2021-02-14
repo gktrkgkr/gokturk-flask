@@ -59,6 +59,10 @@ def contactme():
 def lectures():
     return render_template("lectures.html")
 
+@app.route("/cyrus")
+def cyrus():
+    return render_template("cyrus.html")
+
 @app.route("/lectures")
 def favs():
     return render_template("favs.html")
